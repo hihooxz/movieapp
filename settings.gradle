@@ -1,0 +1,11 @@
+rootProject.name = "Movie App"
+include ':app',
+        ':common',
+        ':common_test',
+        ':navigation',
+        ':data:model',
+        ':data:repository',
+        ':data:remote',
+        ':data:local',
+        ':features:movie',
+        ':features:favoritmovie'
